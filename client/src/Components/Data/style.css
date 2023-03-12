@@ -1,0 +1,19 @@
+.financial-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .financial-table th, .financial-table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .financial-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .financial-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
